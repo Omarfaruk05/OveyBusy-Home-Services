@@ -1,0 +1,30 @@
+[
+    {
+        "_id":1,
+        "option":"Operations Management"
+    },
+    {
+        "_id":2,
+        "option":"Finance and Banking"
+    },
+    {
+        "_id":3,
+        "option":"BCS"
+    },
+    {
+        "_id":4,
+        "option":"Supply Chain"
+    },
+    {
+        "_id":5,
+        "option":"Human Resource"
+    },
+    {
+        "_id":6,
+        "option":"Higher Study in USA"
+    },
+    {
+        "_id":7,
+        "option":"Higher Study in Europe"
+    }
+]
