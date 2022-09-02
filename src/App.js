@@ -1,14 +1,12 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
-import CareerFuideline from './components/CareerFuideline';
-import Details from './components/Details';
+import HomePage from './components/HomePage/HomePage';
 
 function App() {
   return (
-    <div>
+    <div className='bg-white'>
       <Routes>
-        <Route path='/' element={<CareerFuideline></CareerFuideline>}></Route>
-        <Route path='category/:id' element={<Details></Details>}></Route>
+        <Route path='/' element={<HomePage></HomePage>}></Route>
       </Routes>
     </div>
   );
