@@ -9,7 +9,7 @@ const NavComponent = () => {
         <div className=' bg-[#F6F6F6] text-[#415859]'>
             <div className='flex justify-between items-center mx-8 py-2'>
                 <div className='flex justify-between items-center'>
-                    <img src={Logo} alt="logo" className='pr-8 mb-2' />
+                    <img src={Logo} alt="logo" className='pr-8 mb-2 hidden md:block' />
                     <p className='text-[#415859]'> 
                         <FontAwesomeIcon icon={faLocationDot} />
                         <span>1st Floor, H 356, Block B, Sector 22, Noida, Uttar Pradesh 201301</span>
@@ -17,7 +17,7 @@ const NavComponent = () => {
                     </p>
                     
                 </div>
-                <div>
+                <div className='hidden md:block'>
                     <ul className='flex items-center gap-4'>
                         <li>Blog</li>
                         <li>Career</li>
